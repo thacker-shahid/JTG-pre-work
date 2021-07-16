@@ -9,7 +9,7 @@ html{
 }
 
 
-#navbar::before{
+/* #navbar::before{
   content: "";
   background-color: rgb(230, 218, 218);
   position: absolute;
@@ -19,11 +19,12 @@ html{
   width:100%;
   z-index: -1;
   opacity: 0.7;
-}
+} */
 
 .nav-items{
   text-align: center;
   margin-left: 300px;
+  cursor: pointer;
 }
 
 
@@ -645,3 +646,13 @@ line-height: 32px;
   font-size: 18px;
   line-height: 28px;
 }
+
+
+
+/* @media only screen and (min-width: 768px) {
+
+  section{
+    height: 100vh;
+  }
+
+} */
