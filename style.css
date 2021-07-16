@@ -686,7 +686,7 @@ line-height: 32px;
 } */
 /* ////////// MEDIA QUERIES ////////////// */
 
-@media screen and (min-width: 1200px ) {
+@media screen and (max-width: 1440px ) {
 
   #services{
     height: 100vh;
@@ -699,6 +699,23 @@ line-height: 32px;
 
   #lastsection{
     height: 130vh;
+  }
+
+}
+
+@media screen and (min-width: 1440px ) {
+
+  #services{
+    height: 80vh;
+  }
+
+  #client-section{ 
+    height: 115vh;
+    /* height: auto; */
+  }
+
+  #lastsection{
+    height: 110vh;
   }
 
 }
