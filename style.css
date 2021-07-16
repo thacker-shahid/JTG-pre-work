@@ -152,12 +152,12 @@ html{
 
 /* ///////////////Logo Cloud Section///////////////// */
 #logoCloud{
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   margin-top: -20px;
 }
 
 
-.logoContainer{
+.icons-slider{
   max-width: 1200px;
   margin: auto;
 }
@@ -171,6 +171,10 @@ html{
   width: 50%;
 }
 
+
+.icons-slider{
+  padding-left: 65px;
+}
 
 
 /* ///////////////// Services Section /////////////////*/
@@ -668,4 +672,22 @@ line-height: 32px;
   font-weight: bold;
   font-size: 18px;
   line-height: 28px;
+}
+
+/* ////////// MEDIA QUERIES ////////////// */
+
+@media screen and (min-width: 1200px ) {
+
+  #services{
+    height: 80vh;
+  }
+
+  #client-section{ 
+    height: 115vh;
+  }
+
+  #lastsection{
+    height: 110vh;
+  }
+
 }
