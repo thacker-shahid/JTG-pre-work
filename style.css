@@ -2,6 +2,8 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Inter';
+  font-feature-settings: 'salt' on, 'liga' off;
 }
 
 html{
@@ -54,7 +56,7 @@ html{
 
 #navbar ul{
   display: flex;
-  font-family: 'Baloo Bhai', cursive;
+  font-family: 'Inter','Baloo Bhai', cursive;
 }
 
 #navbar ul li{ 
@@ -109,7 +111,7 @@ html{
 
 #home .home-text h1{
   color:black;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Inter','Bree Serif', serif;
   font-weight: bold;
   font-size: 3rem;
 }
@@ -132,7 +134,7 @@ html{
 
   position: absolute;
   right: 70%;
-  width: 170px;
+  width: 180px;
 }
 
 .home-mobile-image{
@@ -149,6 +151,32 @@ html{
 }
 
 
+/* ///////////////Logo Cloud Section///////////////// */
+#logoCloud{
+  margin-bottom: 80px;
+  margin-top: -20px;
+}
+
+
+.icons-slider{
+  max-width: 1200px;
+  margin: auto;
+}
+
+.icons-slider .slick-slide{
+  margin: 15px;
+}
+
+
+.sliderImg{
+  width: 50%;
+}
+
+
+.icons-slider{
+  padding-left: 65px;
+}
+
 
 /* ///////////////// Services Section /////////////////*/
 
@@ -160,7 +188,7 @@ html{
 
 #services .h-primary{
   color:black;
-  font-family: 'Bree Serif', serif;
+  font-family: 'Inter','Bree Serif', serif;
   font-weight: bold;
   font-size: 2.5rem;
 }
@@ -656,3 +684,21 @@ line-height: 32px;
   }
 
 } */
+/* ////////// MEDIA QUERIES ////////////// */
+
+@media screen and (min-width: 1200px ) {
+
+  #services{
+    height: 100vh;
+  }
+
+  #client-section{ 
+    height: 130vh;
+    /* height: auto; */
+  }
+
+  #lastsection{
+    height: 130vh;
+  }
+
+}
